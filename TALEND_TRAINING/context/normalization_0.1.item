@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_zFkZoJxUEeysevVK7RNg3A" confirmationNeeded="false" name="Aarthi">
+    <contextParameter xmi:id="_zFkZoZxUEeysevVK7RNg3A" comment="" name="normalization_Encoding" prompt="normalization_Encoding?" promptNeeded="false" type="id_String" value="US-ASCII"/>
+    <contextParameter xmi:id="_zFkZopxUEeysevVK7RNg3A" comment="" name="normalization_RowSeparator" prompt="normalization_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_zFkZo5xUEeysevVK7RNg3A" comment="" name="normalization_File" prompt="normalization_File?" promptNeeded="false" type="id_File" value="C:/Talend/Output/normalization.txt"/>
+    <contextParameter xmi:id="_zFkZpJxUEeysevVK7RNg3A" comment="" name="normalization_Header" prompt="normalization_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_zFkZpZxUEeysevVK7RNg3A" comment="" name="normalization_FieldSeparator" prompt="normalization_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_zFkZppxUEeysevVK7RNg3A" confirmationNeeded="false" name="Dawood">
+    <contextParameter xmi:id="_zFkZp5xUEeysevVK7RNg3A" comment="" name="normalization_Encoding" prompt="normalization_Encoding?" promptNeeded="false" type="id_String" value="US-ASCII"/>
+    <contextParameter xmi:id="_zFkZqJxUEeysevVK7RNg3A" comment="" name="normalization_RowSeparator" prompt="normalization_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_zFkZqZxUEeysevVK7RNg3A" comment="" name="normalization_File" prompt="normalization_File?" promptNeeded="false" type="id_File" value="C:/Talend/normalization.txt"/>
+    <contextParameter xmi:id="_zFkZqpxUEeysevVK7RNg3A" comment="" name="normalization_Header" prompt="normalization_Header?" promptNeeded="false" type="id_Integer" value="0"/>
+    <contextParameter xmi:id="_zFkZq5xUEeysevVK7RNg3A" comment="" name="normalization_FieldSeparator" prompt="normalization_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;,&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_zFkZrJxUEeysevVK7RNg3A" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_zFkZrZxUEeysevVK7RNg3A" comment="" name="normalization_Encoding" prompt="normalization_Encoding?" promptNeeded="false" type="id_String" value="US-ASCII"/>
+    <contextParameter xmi:id="_zFkZrpxUEeysevVK7RNg3A" comment="" name="normalization_RowSeparator" prompt="normalization_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_zFkZr5xUEeysevVK7RNg3A" comment="" name="normalization_File" prompt="normalization_File?" promptNeeded="false" type="id_File" value="C:/Talend/Input/normalization.txt"/>
+    <contextParameter xmi:id="_zFkZsJxUEeysevVK7RNg3A" comment="" name="normalization_Header" prompt="normalization_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_zFkZsZxUEeysevVK7RNg3A" comment="" name="normalization_FieldSeparator" prompt="normalization_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;,&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_zFkZspxUEeysevVK7RNg3A" confirmationNeeded="false" name="Lavanya">
+    <contextParameter xmi:id="_zFkZs5xUEeysevVK7RNg3A" comment="" name="normalization_Encoding" prompt="normalization_Encoding?" promptNeeded="false" type="id_String" value="US-ASCII"/>
+    <contextParameter xmi:id="_zFkZtJxUEeysevVK7RNg3A" comment="" name="normalization_RowSeparator" prompt="normalization_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_zFkZtZxUEeysevVK7RNg3A" comment="" name="normalization_File" prompt="normalization_File?" promptNeeded="false" type="id_File" value="C:/Talend/Input/normalization.txt"/>
+    <contextParameter xmi:id="_zFkZtpxUEeysevVK7RNg3A" comment="" name="normalization_Header" prompt="normalization_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_zFkZt5xUEeysevVK7RNg3A" comment="" name="normalization_FieldSeparator" prompt="normalization_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;,&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_zFkZuJxUEeysevVK7RNg3A" confirmationNeeded="false" name="Laxmi">
+    <contextParameter xmi:id="_zFkZuZxUEeysevVK7RNg3A" comment="" name="normalization_Encoding" prompt="normalization_Encoding?" promptNeeded="false" type="id_String" value="US-ASCII"/>
+    <contextParameter xmi:id="_zFkZupxUEeysevVK7RNg3A" comment="" name="normalization_RowSeparator" prompt="normalization_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter xmi:id="_zFkZu5xUEeysevVK7RNg3A" comment="" name="normalization_File" prompt="normalization_File?" promptNeeded="false" type="id_File" value="C:/Talend/Input/normalization/normalization.txt"/>
+    <contextParameter xmi:id="_zFkZvJxUEeysevVK7RNg3A" comment="" name="normalization_Header" prompt="normalization_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_zFkZvZxUEeysevVK7RNg3A" comment="" name="normalization_FieldSeparator" prompt="normalization_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;,&quot;"/>
+  </talendfile:ContextType>
+</xmi:XMI>

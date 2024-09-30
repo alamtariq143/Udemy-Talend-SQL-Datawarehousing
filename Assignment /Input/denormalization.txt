@@ -1,0 +1,15 @@
+emp_no|employee_name|skills
+1|Sanjay|TALEND
+1|Sanjay|JAVA
+1|Sanjay|SQL
+2|Ronald|TALEND
+2|Ronald|DATAWAREHOUSING
+2|Ronald|QA
+3|George|TALEND
+3|George|SQL
+4|Theodore|TALEND
+4|Theodore|JAVA
+5|Ganesh|TALEND
+5|Ganesh|DATAWAREHOUSING
+6|Richard|SQL
+6|Richard|DATAWAREHOUSING

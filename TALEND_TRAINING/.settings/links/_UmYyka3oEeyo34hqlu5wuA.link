@@ -1,0 +1,129 @@
+{
+  "itemId" : "_UmYyka3oEeyo34hqlu5wuA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_wjPgYJqfEeyzccMoOi1_pQ",
+    "parameterList" : [ {
+      "id" : "_zD7a4ZxUEeysevVK7RNg3A",
+      "name" : "landing_Server"
+    }, {
+      "id" : "_zD7a4pxUEeysevVK7RNg3A",
+      "name" : "landing_Schema"
+    }, {
+      "id" : "_zD7a45xUEeysevVK7RNg3A",
+      "name" : "landing_Database"
+    }, {
+      "id" : "_zD7a5JxUEeysevVK7RNg3A",
+      "name" : "landing_Password"
+    }, {
+      "id" : "_zD7a5ZxUEeysevVK7RNg3A",
+      "name" : "landing_AdditionalParams"
+    }, {
+      "id" : "_zD7a5pxUEeysevVK7RNg3A",
+      "name" : "landing_Login"
+    }, {
+      "id" : "_zD7a55xUEeysevVK7RNg3A",
+      "name" : "landing_Port"
+    } ]
+  }, {
+    "contextName" : "UAT_QA",
+    "repoId" : "_wjPgYJqfEeyzccMoOi1_pQ",
+    "parameterList" : [ {
+      "id" : "_zD7bAZxUEeysevVK7RNg3A",
+      "name" : "landing_Server"
+    }, {
+      "id" : "_zD7bApxUEeysevVK7RNg3A",
+      "name" : "landing_Schema"
+    }, {
+      "id" : "_zD7bA5xUEeysevVK7RNg3A",
+      "name" : "landing_Database"
+    }, {
+      "id" : "_zD7bBJxUEeysevVK7RNg3A",
+      "name" : "landing_Password"
+    }, {
+      "id" : "_zD7bBZxUEeysevVK7RNg3A",
+      "name" : "landing_AdditionalParams"
+    }, {
+      "id" : "_zD7bBpxUEeysevVK7RNg3A",
+      "name" : "landing_Login"
+    }, {
+      "id" : "_zD7bB5xUEeysevVK7RNg3A",
+      "name" : "landing_Port"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_wjPgYJqfEeyzccMoOi1_pQ",
+    "parameterList" : [ {
+      "id" : "_zD7a-ZxUEeysevVK7RNg3A",
+      "name" : "landing_Server"
+    }, {
+      "id" : "_zD7a-pxUEeysevVK7RNg3A",
+      "name" : "landing_Schema"
+    }, {
+      "id" : "_zD7a-5xUEeysevVK7RNg3A",
+      "name" : "landing_Database"
+    }, {
+      "id" : "_zD7a_JxUEeysevVK7RNg3A",
+      "name" : "landing_Password"
+    }, {
+      "id" : "_zD7a_ZxUEeysevVK7RNg3A",
+      "name" : "landing_AdditionalParams"
+    }, {
+      "id" : "_zD7a_pxUEeysevVK7RNg3A",
+      "name" : "landing_Login"
+    }, {
+      "id" : "_zD7a_5xUEeysevVK7RNg3A",
+      "name" : "landing_Port"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_wjPgYJqfEeyzccMoOi1_pQ",
+    "parameterList" : [ {
+      "id" : "_zD7a6ZxUEeysevVK7RNg3A",
+      "name" : "landing_Server"
+    }, {
+      "id" : "_zD7a6pxUEeysevVK7RNg3A",
+      "name" : "landing_Schema"
+    }, {
+      "id" : "_zD7a65xUEeysevVK7RNg3A",
+      "name" : "landing_Database"
+    }, {
+      "id" : "_zD7a7JxUEeysevVK7RNg3A",
+      "name" : "landing_Password"
+    }, {
+      "id" : "_zD7a7ZxUEeysevVK7RNg3A",
+      "name" : "landing_AdditionalParams"
+    }, {
+      "id" : "_zD7a7pxUEeysevVK7RNg3A",
+      "name" : "landing_Login"
+    }, {
+      "id" : "_zD7a75xUEeysevVK7RNg3A",
+      "name" : "landing_Port"
+    } ]
+  }, {
+    "contextName" : "Pre_Prod",
+    "repoId" : "_wjPgYJqfEeyzccMoOi1_pQ",
+    "parameterList" : [ {
+      "id" : "_zD7a8ZxUEeysevVK7RNg3A",
+      "name" : "landing_Server"
+    }, {
+      "id" : "_zD7a8pxUEeysevVK7RNg3A",
+      "name" : "landing_Schema"
+    }, {
+      "id" : "_zD7a85xUEeysevVK7RNg3A",
+      "name" : "landing_Database"
+    }, {
+      "id" : "_zD7a9JxUEeysevVK7RNg3A",
+      "name" : "landing_Password"
+    }, {
+      "id" : "_zD7a9ZxUEeysevVK7RNg3A",
+      "name" : "landing_AdditionalParams"
+    }, {
+      "id" : "_zD7a9pxUEeysevVK7RNg3A",
+      "name" : "landing_Login"
+    }, {
+      "id" : "_zD7a95xUEeysevVK7RNg3A",
+      "name" : "landing_Port"
+    } ]
+  } ]
+}

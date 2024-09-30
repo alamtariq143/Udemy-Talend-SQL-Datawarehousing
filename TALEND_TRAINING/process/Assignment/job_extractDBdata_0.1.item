@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="UAT_QA" jobType="Standard">
+  <context confirmationNeeded="false" name="UAT_QA">
+    <contextParameter comment="" name="landing_AdditionalParams" prompt="landing_AdditionalParams?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="" internalId="_6NPugKirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Database" prompt="landing_Database?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="postgres" internalId="_6NPugairEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Login" prompt="landing_Login?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="postgres" internalId="_6NPugqirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Password" prompt="landing_Password?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_Password" value="enc:system.encryption.key.v1:Rm2Ej6tCu7fDyDyxtTvWZG7mRanT8WyRiDXISR9+lgBBhTU=" internalId="_6NPug6irEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Port" prompt="landing_Port?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="5432" internalId="_6NPuhKirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Schema" prompt="landing_Schema?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="landing" internalId="_6NPuhairEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Server" prompt="landing_Server?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="localhost" internalId="_6NPuhqirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="normalization_FieldSeparator" prompt="normalization_FieldSeparator?" promptNeeded="false" repositoryContextId="_c7avwJqgEeyzccMoOi1_pQ" type="id_String" value="&quot;,&quot;" internalId="_6NPuh6irEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="normalization_File" prompt="normalization_File?" promptNeeded="false" repositoryContextId="_c7avwJqgEeyzccMoOi1_pQ" type="id_File" value="C:/Talend/Input/normalization.txt" internalId="_6NPuiKirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="normalization_Header" prompt="normalization_Header?" promptNeeded="false" repositoryContextId="_c7avwJqgEeyzccMoOi1_pQ" type="id_Integer" value="1" internalId="_6NPuiairEeyFzLDh9cWZYg"/>
+  </context>
+  <context confirmationNeeded="false" name="Prod">
+    <contextParameter comment="" name="landing_AdditionalParams" prompt="landing_AdditionalParams?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="" internalId="_6NPuiqirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Database" prompt="landing_Database?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="postgres" internalId="_6NPui6irEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Login" prompt="landing_Login?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="prod_login" internalId="_6NPujKirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Password" prompt="landing_Password?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_Password" value="enc:system.encryption.key.v1:oJWsVnVg/0dVqu+9D5RNswGzb5wS1JHlA2OPEqbvAKWTDew=" internalId="_6NPujairEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Port" prompt="landing_Port?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="5432" internalId="_6NPujqirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Schema" prompt="landing_Schema?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="landing" internalId="_6NPuj6irEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Server" prompt="landing_Server?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="redshif.aws.693.com" internalId="_6NPukKirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="normalization_FieldSeparator" prompt="normalization_FieldSeparator?" promptNeeded="false" repositoryContextId="_c7avwJqgEeyzccMoOi1_pQ" type="id_String" value="&quot;,&quot;" internalId="_6NPukairEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="normalization_File" prompt="normalization_File?" promptNeeded="false" repositoryContextId="_c7avwJqgEeyzccMoOi1_pQ" type="id_File" value="C:/Talend/Input/normalization.txt" internalId="_6NPukqirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="normalization_Header" prompt="normalization_Header?" promptNeeded="false" repositoryContextId="_c7avwJqgEeyzccMoOi1_pQ" type="id_Integer" value="1" internalId="_6NPuk6irEeyFzLDh9cWZYg"/>
+  </context>
+  <context confirmationNeeded="false" name="Dev">
+    <contextParameter comment="" name="landing_AdditionalParams" prompt="landing_AdditionalParams?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="" internalId="_6NPulKirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Database" prompt="landing_Database?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="postgres" internalId="_6NPulairEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Login" prompt="landing_Login?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="postgres" internalId="_6NPulqirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Password" prompt="landing_Password?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_Password" value="enc:system.encryption.key.v1:nwdD2ZO+1ZBCDjfe3m7zlwnASIQL9mig8WL489wSP9DuOrY=" internalId="_6NPul6irEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Port" prompt="landing_Port?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="5432" internalId="_6NPumKirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Schema" prompt="landing_Schema?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="landing" internalId="_6NPumairEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Server" prompt="landing_Server?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="localhost" internalId="_6NPumqirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="normalization_FieldSeparator" prompt="normalization_FieldSeparator?" promptNeeded="false" repositoryContextId="_c7avwJqgEeyzccMoOi1_pQ" type="id_String" value="&quot;,&quot;" internalId="_6NPum6irEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="normalization_File" prompt="normalization_File?" promptNeeded="false" repositoryContextId="_c7avwJqgEeyzccMoOi1_pQ" type="id_File" value="C:/Talend/Input/normalization.txt" internalId="_6NPunKirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="normalization_Header" prompt="normalization_Header?" promptNeeded="false" repositoryContextId="_c7avwJqgEeyzccMoOi1_pQ" type="id_Integer" value="1" internalId="_6NPunairEeyFzLDh9cWZYg"/>
+  </context>
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="landing_AdditionalParams" prompt="landing_AdditionalParams?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="" internalId="_6NPunqirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Database" prompt="landing_Database?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="postgres" internalId="_6NPun6irEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Login" prompt="landing_Login?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="postgres" internalId="_6NPuoKirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Password" prompt="landing_Password?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_Password" value="enc:system.encryption.key.v1:PfWwMXgHQyMugWQDNZLN22mlannqB/gY0vFyiF1Akfiu/sM=" internalId="_6NPuoairEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Port" prompt="landing_Port?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="5432" internalId="_6NPuoqirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Schema" prompt="landing_Schema?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="landing" internalId="_6NPuo6irEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Server" prompt="landing_Server?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="localhost" internalId="_6NPupKirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="normalization_FieldSeparator" prompt="normalization_FieldSeparator?" promptNeeded="false" repositoryContextId="_c7avwJqgEeyzccMoOi1_pQ" type="id_String" value="&quot;,&quot;" internalId="_6NPupairEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="normalization_File" prompt="normalization_File?" promptNeeded="false" repositoryContextId="_c7avwJqgEeyzccMoOi1_pQ" type="id_File" value="C:/Talend/Input/normalization.txt" internalId="_6NPupqirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="normalization_Header" prompt="normalization_Header?" promptNeeded="false" repositoryContextId="_c7avwJqgEeyzccMoOi1_pQ" type="id_Integer" value="1" internalId="_6NPup6irEeyFzLDh9cWZYg"/>
+  </context>
+  <context confirmationNeeded="false" name="Pre_Prod">
+    <contextParameter comment="" name="landing_AdditionalParams" prompt="landing_AdditionalParams?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="" internalId="_6NPuqKirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Database" prompt="landing_Database?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="postgres" internalId="_6NPuqairEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Login" prompt="landing_Login?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="postgres" internalId="_6NPuqqirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Password" prompt="landing_Password?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_Password" value="enc:system.encryption.key.v1:YlD+rxdAeU8YZkfyuxMSKl0TC5Di+iNZuVWcKHYUmBrUnsU=" internalId="_6NPuq6irEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Port" prompt="landing_Port?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="5432" internalId="_6NPurKirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Schema" prompt="landing_Schema?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="landing" internalId="_6NPurairEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Server" prompt="landing_Server?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="1.23.142.645" internalId="_6NPurqirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="normalization_FieldSeparator" prompt="normalization_FieldSeparator?" promptNeeded="false" repositoryContextId="_c7avwJqgEeyzccMoOi1_pQ" type="id_String" value="&quot;,&quot;" internalId="_6NPur6irEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="normalization_File" prompt="normalization_File?" promptNeeded="false" repositoryContextId="_c7avwJqgEeyzccMoOi1_pQ" type="id_File" value="C:/Talend/Input/normalization.txt" internalId="_6NPusKirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="normalization_Header" prompt="normalization_Header?" promptNeeded="false" repositoryContextId="_c7avwJqgEeyzccMoOi1_pQ" type="id_Integer" value="1" internalId="_6NPusairEeyFzLDh9cWZYg"/>
+  </context>
+  <context confirmationNeeded="false" name="Dawood">
+    <contextParameter comment="" name="landing_AdditionalParams" prompt="landing_AdditionalParams?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="" internalId="_6NPusqirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Database" prompt="landing_Database?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="postgres" internalId="_6NPus6irEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Login" prompt="landing_Login?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="postgres" internalId="_6NPutKirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Password" prompt="landing_Password?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_Password" value="enc:system.encryption.key.v1:Ze1dinWpQGJJj4A/xJRzzPaAzFtNnoE2z7WuYwmrpWg5/Ec=" internalId="_6NPutairEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Port" prompt="landing_Port?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="5432" internalId="_6NPutqirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Schema" prompt="landing_Schema?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="landing" internalId="_6NPut6irEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Server" prompt="landing_Server?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="localhost" internalId="_6NPuuKirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="normalization_FieldSeparator" prompt="normalization_FieldSeparator?" promptNeeded="false" repositoryContextId="_c7avwJqgEeyzccMoOi1_pQ" type="id_String" value="&quot;,&quot;" internalId="_6NPuuairEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="normalization_File" prompt="normalization_File?" promptNeeded="false" repositoryContextId="_c7avwJqgEeyzccMoOi1_pQ" type="id_File" value="C:/Talend/normalization.txt" internalId="_6NSx0KirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="normalization_Header" prompt="normalization_Header?" promptNeeded="false" repositoryContextId="_c7avwJqgEeyzccMoOi1_pQ" type="id_Integer" value="0" internalId="_6NSx0airEeyFzLDh9cWZYg"/>
+  </context>
+  <context confirmationNeeded="false" name="Aarthi">
+    <contextParameter comment="" name="landing_AdditionalParams" prompt="landing_AdditionalParams?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="" internalId="_6NSx0qirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Database" prompt="landing_Database?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="postgres" internalId="_6NSx06irEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Login" prompt="landing_Login?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="postgres" internalId="_6NSx1KirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Password" prompt="landing_Password?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_Password" value="enc:system.encryption.key.v1:UDQVODG8Z2VyueO1kqvJm9ONIFoKLBoANDAF01lSvsQZeSo=" internalId="_6NSx1airEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Port" prompt="landing_Port?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="5432" internalId="_6NSx1qirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Schema" prompt="landing_Schema?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="landing" internalId="_6NSx16irEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="landing_Server" prompt="landing_Server?" promptNeeded="false" repositoryContextId="_wjPgYJqfEeyzccMoOi1_pQ" type="id_String" value="localhost" internalId="_6NSx2KirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="normalization_FieldSeparator" prompt="normalization_FieldSeparator?" promptNeeded="false" repositoryContextId="_c7avwJqgEeyzccMoOi1_pQ" type="id_String" value="&quot;;&quot;" internalId="_6NSx2airEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="normalization_File" prompt="normalization_File?" promptNeeded="false" repositoryContextId="_c7avwJqgEeyzccMoOi1_pQ" type="id_File" value="C:/Talend/Output/normalization.txt" internalId="_6NSx2qirEeyFzLDh9cWZYg"/>
+    <contextParameter comment="" name="normalization_Header" prompt="normalization_Header?" promptNeeded="false" repositoryContextId="_c7avwJqgEeyzccMoOi1_pQ" type="id_Integer" value="1" internalId="_6NSx26irEeyFzLDh9cWZYg"/>
+  </context>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" value="false" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:X+D7IGenKjMPku0q9YtYDvj2y4wDKDRFbEk8z+hH" show="false"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Talend/Workspace8/.metadata&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_12" show="false"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:NgM26+XjV/lB7gEydr1guO2CwXhj+LWbyHbZ5p6X" show="false"/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <routinesParameter id="_X20V8IzVEey0kNNPPXHrHA" name="DataOperation"/>
+    <routinesParameter id="_X4ZDQIzVEey0kNNPPXHrHA" name="Mathematical"/>
+    <routinesParameter id="_X4r-MIzVEey0kNNPPXHrHA" name="Numeric"/>
+    <routinesParameter id="_X5IDEIzVEey0kNNPPXHrHA" name="Relational"/>
+    <routinesParameter id="_X5ZI0IzVEey0kNNPPXHrHA" name="StringHandling"/>
+    <routinesParameter id="_X5mkMIzVEey0kNNPPXHrHA" name="TalendDataGenerator"/>
+    <routinesParameter id="_X53p8IzVEey0kNNPPXHrHA" name="TalendDate"/>
+    <routinesParameter id="_X6bqoIzVEey0kNNPPXHrHA" name="TalendStringUtil"/>
+    <routinesParameter id="_X6FsYIzVEey0kNNPPXHrHA" name="TalendString"/>
+  </parameters>
+  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_2" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TYPE" value="PostgreSQL" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Gqxvx4D1or0RJSuJo9GTHyoeWr5xyYhXAUw3ZKYT" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;employee&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select * from landing.employee&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000" show="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="id"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="first_name"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="last_name"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="doj"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="age"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="total_exp"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="dept_id"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="dept_name"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="location"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="salary"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="hike"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="contact"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="email"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="project_id"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="project_name"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="primary_skill"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="secondary_skill"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_2">
+      <column comment="" defaultValue="" key="false" length="10" name="id" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="first_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="last_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="13" name="doj" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="age" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="total_exp" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="dept_id" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="dept_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="location" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="salary" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="hike" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="contact" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2147483647" name="email" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="project_id" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2147483647" name="project_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2147483647" name="primary_skill" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2147483647" name="secondary_skill" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_2" show="false"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" value="false" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="id"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="first_name"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="last_name"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="doj"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="age"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="total_exp"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="dept_id"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="dept_name"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="location"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="salary"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="hike"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="contact"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="email"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="project_id"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="project_name"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="primary_skill"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="secondary_skill"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogRow_2">
+      <column comment="" defaultValue="" key="false" length="10" name="id" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="first_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="last_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="13" name="doj" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="age" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="total_exp" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="dept_id" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="dept_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="location" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="salary" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="hike" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="contact" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2147483647" name="email" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="project_id" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2147483647" name="project_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2147483647" name="primary_skill" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2147483647" name="secondary_skill" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tPostgresqlClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="736">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBClose_3" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="736">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tPostgresqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" value="IBM DB2" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;xmart&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;landing&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;postgres&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:vVy3HubrtnoPQlBybRXsxIBDQzJqL4Z8HXOO5kF2v/zdBDVvTXw="/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" value="" show="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="544">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_Bx1FoKh9EeyFzLDh9cWZYg" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;xmart&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;landing&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;postgres&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:9dsOlm1n+qkbrh5qbdnmiZ+tSzrH9e+wc+we/f8+IaXRLihF5eU=" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;employee&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select * from landing.employee&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000" show="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="id"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="first_name"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="last_name"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="doj"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="age"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="total_exp"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="dept_id"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="dept_name"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="location"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="salary"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="hike"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="contact"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="email"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="project_id"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="project_name"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="primary_skill"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="secondary_skill"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="employee"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_1">
+      <column comment="" defaultValue="" key="false" length="10" name="id" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="first_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="last_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="13" name="doj" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="age" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="total_exp" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="dept_id" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="dept_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="location" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="salary" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="hike" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="contact" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2147483647" name="email" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="project_id" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2147483647" name="project_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2147483647" name="primary_skill" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2147483647" name="secondary_skill" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="544">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" value="false" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="id"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="first_name"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="last_name"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="doj"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="age"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="total_exp"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="dept_id"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="dept_name"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="location"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="salary"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="hike"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="contact"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="email"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="project_id"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="project_name"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="primary_skill"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="secondary_skill"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogRow_1">
+      <column comment="" defaultValue="" key="false" length="10" name="id" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="first_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="last_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="13" name="doj" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="age" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="total_exp" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="dept_id" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="dept_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="location" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="salary" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="hike" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="contact" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2147483647" name="email" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="project_id" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2147483647" name="project_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2147483647" name="primary_skill" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2147483647" name="secondary_skill" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tLogRow_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostjob_1" offsetLabelX="0" offsetLabelY="0" source="tPostjob_1" target="tDBClose_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk3" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tDBConnection_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk4" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tLogRow_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+  </connection>
+  <note opaque="true" posX="352" posY="32" sizeHeight="64" sizeWidth="385" text="Extracting DB data using existing connection"/>
+  <note opaque="true" posX="576" posY="704" sizeHeight="64" sizeWidth="321" text="Use tDBClose to close the connection"/>
+  <note opaque="true" posX="544" posY="352" sizeHeight="65" sizeWidth="481" text="Extract the data from database table using built-in/manual schema &#xD;&#xA;and print on the console"/>
+  <note opaque="true" posX="672" posY="160" sizeHeight="64" sizeWidth="385" text="Use tDBConnection to establish the connection"/>
+  <note opaque="true" posX="544" posY="512" sizeHeight="65" sizeWidth="481" text="Extract the data from database table using metadata/repository schema &#xD;&#xA;and print on the console"/>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBClose_3" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>

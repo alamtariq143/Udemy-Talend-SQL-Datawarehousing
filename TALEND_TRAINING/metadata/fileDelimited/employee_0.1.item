@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_Cf2MgLfDEeyzEs3_zKIMbA" name="employee" dataPackage="_Cf2MgbfDEeyzEs3_zKIMbA" Server="Localhost 127.0.0.1" FilePath="C:/Talend/Output/employee.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Cf2MgbfDEeyzEs3_zKIMbA" name="default" dataManager="_Cf2MgLfDEeyzEs3_zKIMbA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Cf2MgrfDEeyzEs3_zKIMbA" id="_6GXZELfCEeyzEs3_zKIMbA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Cf2Mg7fDEeyzEs3_zKIMbA" label="Column0" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Cf2MhLfDEeyzEs3_zKIMbA" label="Column1" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Cf2MhbfDEeyzEs3_zKIMbA" label="Column2" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Cf2MhrfDEeyzEs3_zKIMbA" label="Column3" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Cf2Mh7fDEeyzEs3_zKIMbA" label="Column4" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Cf2MiLfDEeyzEs3_zKIMbA" label="Column5" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Cf2MibfDEeyzEs3_zKIMbA" label="Column6" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Cf2MirfDEeyzEs3_zKIMbA" label="Column7" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Cf2Mi7fDEeyzEs3_zKIMbA" label="Column8" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Cf2MjLfDEeyzEs3_zKIMbA" label="Column9" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Cf2MjbfDEeyzEs3_zKIMbA" label="Column10" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Cf2MjrfDEeyzEs3_zKIMbA" label="Column11" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Cf2Mj7fDEeyzEs3_zKIMbA" label="Column12" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Cf2MkLfDEeyzEs3_zKIMbA" label="Column13" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Cf2MkbfDEeyzEs3_zKIMbA" label="Column14" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Cf2MkrfDEeyzEs3_zKIMbA" label="Column15" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Cf2Mk7fDEeyzEs3_zKIMbA" label="Column16" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

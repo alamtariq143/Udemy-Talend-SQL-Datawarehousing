@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_zD7a4JxUEeysevVK7RNg3A" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_zD7a4ZxUEeysevVK7RNg3A" comment="" name="landing_Server" prompt="landing_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_zD7a4pxUEeysevVK7RNg3A" comment="" name="landing_Schema" prompt="landing_Schema?" promptNeeded="false" type="id_String" value="landing"/>
+    <contextParameter xmi:id="_zD7a45xUEeysevVK7RNg3A" comment="" name="landing_Database" prompt="landing_Database?" promptNeeded="false" type="id_String" value="postgres"/>
+    <contextParameter xmi:id="_zD7a5JxUEeysevVK7RNg3A" comment="" name="landing_Password" prompt="landing_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:XtwTx33AV7LxUMmO1G6SftM9iMDPK1gev1mdj85adOOl8SY="/>
+    <contextParameter xmi:id="_zD7a5ZxUEeysevVK7RNg3A" comment="" name="landing_AdditionalParams" prompt="landing_AdditionalParams?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_zD7a5pxUEeysevVK7RNg3A" comment="" name="landing_Login" prompt="landing_Login?" promptNeeded="false" type="id_String" value="postgres"/>
+    <contextParameter xmi:id="_zD7a55xUEeysevVK7RNg3A" comment="" name="landing_Port" prompt="landing_Port?" promptNeeded="false" type="id_String" value="5432"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_zD7a6JxUEeysevVK7RNg3A" confirmationNeeded="false" name="Dev">
+    <contextParameter xmi:id="_zD7a6ZxUEeysevVK7RNg3A" comment="" name="landing_Server" prompt="landing_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_zD7a6pxUEeysevVK7RNg3A" comment="" name="landing_Schema" prompt="landing_Schema?" promptNeeded="false" type="id_String" value="landing"/>
+    <contextParameter xmi:id="_zD7a65xUEeysevVK7RNg3A" comment="" name="landing_Database" prompt="landing_Database?" promptNeeded="false" type="id_String" value="postgres"/>
+    <contextParameter xmi:id="_zD7a7JxUEeysevVK7RNg3A" comment="" name="landing_Password" prompt="landing_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:xqMmcH8hie7as5BnbNqcpDItqBRlvJLWk9f5xc6qrzQrnbc="/>
+    <contextParameter xmi:id="_zD7a7ZxUEeysevVK7RNg3A" comment="" name="landing_AdditionalParams" prompt="landing_AdditionalParams?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_zD7a7pxUEeysevVK7RNg3A" comment="" name="landing_Login" prompt="landing_Login?" promptNeeded="false" type="id_String" value="postgres"/>
+    <contextParameter xmi:id="_zD7a75xUEeysevVK7RNg3A" comment="" name="landing_Port" prompt="landing_Port?" promptNeeded="false" type="id_String" value="5432"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_zD7a8JxUEeysevVK7RNg3A" confirmationNeeded="false" name="Pre_Prod">
+    <contextParameter xmi:id="_zD7a8ZxUEeysevVK7RNg3A" comment="" name="landing_Server" prompt="landing_Server?" promptNeeded="false" type="id_String" value="1.23.142.645"/>
+    <contextParameter xmi:id="_zD7a8pxUEeysevVK7RNg3A" comment="" name="landing_Schema" prompt="landing_Schema?" promptNeeded="false" type="id_String" value="landing"/>
+    <contextParameter xmi:id="_zD7a85xUEeysevVK7RNg3A" comment="" name="landing_Database" prompt="landing_Database?" promptNeeded="false" type="id_String" value="postgres"/>
+    <contextParameter xmi:id="_zD7a9JxUEeysevVK7RNg3A" comment="" name="landing_Password" prompt="landing_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:zlQA2uiKVj1NYd1/3nUJiwDh97xBCWp0WaBFzGhPpbEOpf4="/>
+    <contextParameter xmi:id="_zD7a9ZxUEeysevVK7RNg3A" comment="" name="landing_AdditionalParams" prompt="landing_AdditionalParams?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_zD7a9pxUEeysevVK7RNg3A" comment="" name="landing_Login" prompt="landing_Login?" promptNeeded="false" type="id_String" value="postgres"/>
+    <contextParameter xmi:id="_zD7a95xUEeysevVK7RNg3A" comment="" name="landing_Port" prompt="landing_Port?" promptNeeded="false" type="id_String" value="5432"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_zD7a-JxUEeysevVK7RNg3A" confirmationNeeded="false" name="Prod">
+    <contextParameter xmi:id="_zD7a-ZxUEeysevVK7RNg3A" comment="" name="landing_Server" prompt="landing_Server?" promptNeeded="false" type="id_String" value="redshif.aws.693.com"/>
+    <contextParameter xmi:id="_zD7a-pxUEeysevVK7RNg3A" comment="" name="landing_Schema" prompt="landing_Schema?" promptNeeded="false" type="id_String" value="landing"/>
+    <contextParameter xmi:id="_zD7a-5xUEeysevVK7RNg3A" comment="" name="landing_Database" prompt="landing_Database?" promptNeeded="false" type="id_String" value="postgres"/>
+    <contextParameter xmi:id="_zD7a_JxUEeysevVK7RNg3A" comment="" name="landing_Password" prompt="landing_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:WVJSKU0RQ8KUbvxTGCmII2lF+ycOFK2zThq0kuE3JUa+paM="/>
+    <contextParameter xmi:id="_zD7a_ZxUEeysevVK7RNg3A" comment="" name="landing_AdditionalParams" prompt="landing_AdditionalParams?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_zD7a_pxUEeysevVK7RNg3A" comment="" name="landing_Login" prompt="landing_Login?" promptNeeded="false" type="id_String" value="prod_login"/>
+    <contextParameter xmi:id="_zD7a_5xUEeysevVK7RNg3A" comment="" name="landing_Port" prompt="landing_Port?" promptNeeded="false" type="id_String" value="5432"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_zD7bAJxUEeysevVK7RNg3A" confirmationNeeded="false" name="UAT_QA">
+    <contextParameter xmi:id="_zD7bAZxUEeysevVK7RNg3A" comment="" name="landing_Server" prompt="landing_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_zD7bApxUEeysevVK7RNg3A" comment="" name="landing_Schema" prompt="landing_Schema?" promptNeeded="false" type="id_String" value="landing"/>
+    <contextParameter xmi:id="_zD7bA5xUEeysevVK7RNg3A" comment="" name="landing_Database" prompt="landing_Database?" promptNeeded="false" type="id_String" value="postgres"/>
+    <contextParameter xmi:id="_zD7bBJxUEeysevVK7RNg3A" comment="" name="landing_Password" prompt="landing_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:YYCd517HsejoyFJHOB0gHEp+a40n2xZt3xR8yyH7qNpDZgE="/>
+    <contextParameter xmi:id="_zD7bBZxUEeysevVK7RNg3A" comment="" name="landing_AdditionalParams" prompt="landing_AdditionalParams?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_zD7bBpxUEeysevVK7RNg3A" comment="" name="landing_Login" prompt="landing_Login?" promptNeeded="false" type="id_String" value="postgres"/>
+    <contextParameter xmi:id="_zD7bB5xUEeysevVK7RNg3A" comment="" name="landing_Port" prompt="landing_Port?" promptNeeded="false" type="id_String" value="5432"/>
+  </talendfile:ContextType>
+</xmi:XMI>

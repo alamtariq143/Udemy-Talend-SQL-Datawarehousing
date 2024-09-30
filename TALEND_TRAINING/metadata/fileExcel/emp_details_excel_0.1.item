@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_GcYMcaLbEeyphKvv81WzcA" name="emp_details_excel" id="_GcYMcKLbEeyphKvv81WzcA" dataPackage="_GcYMcqLbEeyphKvv81WzcA" Server="Localhost 127.0.0.1" FilePath="C:/Talend/Input/employee_details.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Sheet1" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="Sheet1:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+    <sheetColumns>L</sheetColumns>
+    <sheetColumns>M</sheetColumns>
+    <sheetColumns>N</sheetColumns>
+    <sheetColumns>O</sheetColumns>
+    <sheetColumns>P</sheetColumns>
+    <sheetColumns>Q</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_GcYMcqLbEeyphKvv81WzcA" name="default" dataManager="_GcYMcaLbEeyphKvv81WzcA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_GcYMc6LbEeyphKvv81WzcA" id="_5I8AcKLaEeyphKvv81WzcA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AqTy0KhPEeyFzLDh9cWZYg" name="Id" label="Id" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_AqTy0ahPEeyFzLDh9cWZYg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AqTy0qhPEeyFzLDh9cWZYg" name="First_Name" label="First_Name" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_AqTy06hPEeyFzLDh9cWZYg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AqTy1KhPEeyFzLDh9cWZYg" name="Last_Name" label="Last_Name" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_AqTy1ahPEeyFzLDh9cWZYg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AqTy1qhPEeyFzLDh9cWZYg" name="DOJ" label="DOJ" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_AqTy16hPEeyFzLDh9cWZYg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AqTy2KhPEeyFzLDh9cWZYg" name="Age" label="Age" length="10" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_AqTy2ahPEeyFzLDh9cWZYg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AqTy2qhPEeyFzLDh9cWZYg" name="Total_EXP" label="Total_EXP" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_AqTy26hPEeyFzLDh9cWZYg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AqTy3KhPEeyFzLDh9cWZYg" name="Dept_id" label="Dept_id" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_AqTy3ahPEeyFzLDh9cWZYg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AqTy3qhPEeyFzLDh9cWZYg" name="Dept_Name" label="Dept_Name" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_AqTy36hPEeyFzLDh9cWZYg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AqTy4KhPEeyFzLDh9cWZYg" name="Location" label="Location" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_AqTy4ahPEeyFzLDh9cWZYg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AqTy4qhPEeyFzLDh9cWZYg" name="Salary" label="Salary" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_AqTy46hPEeyFzLDh9cWZYg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AqTy5KhPEeyFzLDh9cWZYg" name="Hike" label="Hike" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_AqTy5ahPEeyFzLDh9cWZYg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AqTy5qhPEeyFzLDh9cWZYg" name="Contact" label="Contact" length="9" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_AqTy56hPEeyFzLDh9cWZYg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AqTy6KhPEeyFzLDh9cWZYg" name="Email" label="Email" length="29" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_AqTy6ahPEeyFzLDh9cWZYg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AqTy6qhPEeyFzLDh9cWZYg" name="Project_id" label="Project_id" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_AqTy66hPEeyFzLDh9cWZYg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AqTy7KhPEeyFzLDh9cWZYg" name="Project_Name" label="Project_Name" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_AqTy7ahPEeyFzLDh9cWZYg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AqTy7qhPEeyFzLDh9cWZYg" name="Primary_Skill" label="Primary_Skill" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_AqTy76hPEeyFzLDh9cWZYg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AqTy8KhPEeyFzLDh9cWZYg" name="Secondary_Skill" label="Secondary_Skill" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_AqTy8ahPEeyFzLDh9cWZYg" body=""/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
